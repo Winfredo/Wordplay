@@ -7,8 +7,19 @@ module.exports = {
     extend: {
       fontFamily: {
         text: ["'Yeseva One', cursive"],
-      }
+      },
+      colors :{
+        primary:'#FFBE32',
+        "dark-bg": '#1C1C1C'
+
+      },
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-filters'),
+  ],
 }
