@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* text shadow*/
+.title{
+    text-shadow: #f8b02b 0 0 50px;
+}
