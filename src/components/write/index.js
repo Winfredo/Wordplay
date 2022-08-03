@@ -2,8 +2,11 @@ import React from 'react'
 
 function Write() {
   return (
-    <div></div>
+    <div>
+        
+    </div>
+    
   )
 }
 
-export default Write;
+export default Write

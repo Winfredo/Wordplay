@@ -10,7 +10,7 @@ function Home() {
           <h2 className="font-text title">WordPlay</h2>
         </div>
         <div className="text-primary text-4xl font-semibold pb-10">
-         <Link to="">
+         <Link to="/write">
          <button className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200 shadow-lg rounded-full'>Write</button>
          </Link>
          
