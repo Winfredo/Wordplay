@@ -11,7 +11,7 @@ function Navbar() {
         <div className="h-8 w-8 shadow-xl hover:bg-primary bg-primary flex items-center justify-center rounded-full cursor-pointer">
           <BsFillSunFill />
         </div>
-        <div className="h-8 w-8 shadow-xl hover:bg-primary bg-primary flex items-center justify-center rounded-full cursor-pointer">
+        <div className="h-8 w-8 shadow-xl hover:bg-[#ebb216] bg-primary flex items-center justify-center rounded-full cursor-pointer">
           <HiOutlineLogout />
         </div>
       </div>

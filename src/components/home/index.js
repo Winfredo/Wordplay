@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function Home() {
   return (
@@ -8,7 +10,11 @@ function Home() {
           <h2 className="font-text title">WordPlay</h2>
         </div>
         <div className="text-primary text-4xl font-semibold pb-10">
-          <button className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200 shadow-lg rounded-full'>Write</button>
+         <Link to="">
+         <button className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200 shadow-lg rounded-full'>Write</button>
+         </Link>
+         
+      
         </div>
         <div className="text-primary w-fit  cursor-pointer rounded-full px-5 py-1 text-4xl  font-semibold bg-[#00000] shadow-lg ">
           <button>Sentence Gallery</button> 
