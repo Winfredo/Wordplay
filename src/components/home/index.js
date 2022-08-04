@@ -11,7 +11,7 @@ function Home() {
         </div>
         <div className="text-primary text-4xl font-semibold pb-10">
          <Link to="/write">
-         <button className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200 shadow-lg rounded-full'>Write</button>
+         <button className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60  border-gray-200 shadow-lg rounded-full'>Write</button>
          </Link>
          
       
