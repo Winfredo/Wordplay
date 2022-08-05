@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/navbar'
+import Write from '../../components/Write';
 
-function Write() {
+function WritePage() {
   return (
-    <div className='h-screen'>
+    <div>
     <Navbar />
+    <Write />
 
   </div>
 
@@ -12,4 +14,4 @@ function Write() {
 
 }
 
-export default Write;
+export default WritePage;
