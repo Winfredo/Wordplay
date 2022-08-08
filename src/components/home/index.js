@@ -15,7 +15,9 @@ function Home() {
          </Link>
         </div>
         <div className="text-primary w-fit  cursor-pointer rounded-full px-5 py-1 text-4xl  font-semibold bg-[#00000] shadow-lg ">
-          <button>Sentence Gallery</button>           
+          <Link to="/SentenceGallery">
+          <button>Sentence Gallery</button>  
+          </Link>         
           </div>
           <div className="text-lg text-primary font-semibold pt-60">
             <button>Logged in as winfrednukpe2002@gmail.com</button>

@@ -1,4 +1,6 @@
+
 import React from 'react'
+
 
 function NewSentencePage() {
   return (
@@ -26,6 +28,7 @@ function NewSentencePage() {
         </div>
         
     </div>
+
   )
 }
 
