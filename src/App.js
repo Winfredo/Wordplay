@@ -3,6 +3,7 @@ import HomePage from "./pages/home";
 import LoginPage from "./pages/login";
 import NewsentencePage from "./pages/NewsentencePage";
 import Write from "./pages/write";
+// import SentenceGallery from "./pages/SentenceGallery";
 
 function App() {
   return (
