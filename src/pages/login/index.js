@@ -11,7 +11,7 @@ function LoginPage() {
       <div className='text-primary text-4xl font-semibold pb-10'>
         <p> You are logged in</p>
       </div>
-      <div className='text-black w-fit  cursor-pointer rounded-full px-5 py-1 text-4xl  font-semibold bg-primary shadow-lg shadow-black-500/50' >
+      <div className='text-primary w-fit  cursor-pointer rounded-full px-5 py-1 text-4xl  font-semibold bg-[#00000] shadow-lg ' >
       <Link to='/home'>
       <button> Log In</button>
       </Link>
