@@ -13,8 +13,18 @@ function SentencePage() {
             <div className='text-gray-700 mb-5 font-semibold bg-clip-padding mt-3 p-2 backdrop-filter backdrop-blur-xl bg-opacity-60  border-gray-200 shadow-lg rounded-full'>
                 <button>BuzFnxgvgHaZe8SFDI28m</button>
             </div>
-            <div className='text-primary flex flex-col'>
-                <p>Sort By:</p>
+            <div className='text-primary flex justify-between '>
+                <p className='pr-2'>Sort By:</p>
+                <div>
+                    <ul className='list-disc list-inside'>
+                        <li>Newest - Oldest</li>
+                        <li>Oldest - Newest</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div className='m-6 text-primary w-fit  cursor-pointer rounded-full px-5 py-1 text-3xl  font-semibold bg-[#00000] shadow-lg '>
+                <button>Search</button>
             </div>
 
         </div>
