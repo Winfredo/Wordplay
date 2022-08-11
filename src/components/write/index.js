@@ -9,7 +9,7 @@ function Write() {
               <h2>Write</h2>
                </div>
                <div className='border-2  w-52 border-dashed mb-3 border-primary'></div>
-               <div className='border-2 border-solid w-52 mb-5 border-primary'></div>
+               <div className='border-2 border-solid w-52 mb-3 border-primary'></div>
                
                <div>
                <Link to='/NewSentencePage'>
