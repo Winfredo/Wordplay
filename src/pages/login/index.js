@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import {SIGNUP} from '../../Firebase/'
 
 function LoginPage() {
   return (
@@ -12,9 +12,7 @@ function LoginPage() {
         <p> You are logged in</p>
       </div>
       <div className='text-primary w-fit  cursor-pointer rounded-full px-5 py-1 text-4xl  font-semibold bg-[#00000] shadow-lg ' >
-      <Link to='/home'>
-      <button> Log In</button>
-      </Link>
+      <button onClick={SIGNUP}> Log In</button>
       </div>
     </div>
   )
